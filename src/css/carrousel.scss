@@ -1,0 +1,30 @@
+/*
+.wrapper-carrousel{
+    .small-img{
+       display: block;
+    }
+    .big-img{
+        display: none;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 600px){
+        .small-img{
+            width: 100%;
+        }
+    }
+    @media only screen and (min-width: 600px){
+        .small-img{
+            display: none;
+        }
+        
+        .big-img{
+            display: block;
+        }
+    }
+    @media only screen and (min-width: 1280px){
+        .big-img{
+            width: 100%;
+        }
+    }
+}
+*/

@@ -1,0 +1,45 @@
+@import 'lib';
+@import 'cards';
+@import 'fonts';
+@import 'forms';
+@import 'header';
+@import 'buttons';
+@import 'checkbox';
+@import 'carrousel';
+
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.wrapper-content-header{
+    text-align: left;
+    margin: 9px;
+    margin-top: 50px;
+    @media only screen and (min-width: 1281px){
+        margin: 1%;
+    }
+}
+
+.wrapper-carrousel{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.wrapper-content{
+    text-align: center;
+} 
+
+.wrapper-form-header{
+    text-align: center;
+    border-bottom: 1px solid $general-borders;
+    @media only screen and (min-width: 920px){
+        padding-top: 50px;
+    }
+    
+};
+
+
+.wrapper-form{
+    padding: 20px;
+}

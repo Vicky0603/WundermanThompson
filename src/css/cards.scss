@@ -1,0 +1,57 @@
+.card {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 285px;
+    height: 454px;
+    border: 0.5px $general-borders solid;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px 0px $shadow-color;
+    overflow: hidden;
+    margin: 9px;
+    
+        p, h2 {
+            text-align: left;
+            margin: 0px;
+        }
+
+        h2 {
+            font-size: 23px;
+            margin-top: 8px;
+            margin-bottom: 35px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+        .top{
+            background-color: $color-article-top;
+            height: 216px;
+        }
+
+        .bot{
+            background-color: $color-article-bot;
+            height: 238px;
+            padding: 20px;
+        }
+
+    @media only screen and (min-width: 1279px){
+        margin: 1%;
+    }
+}
+
+@media only screen and (min-width: 933px) and (max-width: 1239px){
+    .middle{
+        position: relative;
+        top: 30px;
+
+    }
+}
+
+@media only screen and (min-width: 1240px){
+    .pair{
+        position: relative;
+        top: 30px;
+
+    }
+}

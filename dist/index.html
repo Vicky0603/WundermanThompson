@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- VENDOR -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!-- PROJECT -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>prueba_wunderman</title>
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <div class="left">Landing Page</div>
+        <a href="#"><img src="img/fb-logo.png" alt="" srcset=""></a><div class="right">SEGUÍ CONECTADO</div>
+    </div>
+</header>
+<nav>
+    <div class="wrapper-carrousel">
+        <div class="your-class">
+            <div><img src="img/carrousel.jpg" alt="" class="big-img"></div>
+            <div><img src="img/carrousel.jpg" alt="" class="big-img"></div>
+            <div><img src="img/carrousel.jpg" alt="" class="big-img"></div>
+        </div>
+    </div>
+</nav>
+<section>
+    <div class="wrapper-content-header">
+            <header>
+                    <h2 class="content-header">Últimos Artículos</h2>
+            </header>
+    </div>
+
+    <div class="wrapper-content">
+        <div class="card">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+
+        <div class="card middle pair">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum .</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+
+        <div class="card">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+        
+        <div class="card pair">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+
+        <div class="card middle">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+
+        <div class="card pair">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum sit amet, consetetur.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+
+        <div class="card middle">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum sit amet, consetetur.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+
+        <div class="card middle pair">
+        <article>
+            <div class="top"></div>
+            <div class="bot">
+                <h2>Lorem Ipsum sit amet, consetetur.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nisl vel libero viverra vestibulum. Morbi sapien mauris, suscipit eget blandit eu </p>
+            </div>
+        </article>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="wrapper-form-header">
+        <header>
+                <h2 class="form-header">Formulario</h2>
+        </header>
+    </div>
+    <div class="wrapper-form">
+        <form id="formLandingPage" class="landing-form" action="#" method="POST" novalidate>
+            <div class="input-wrapper">
+                <input type="text" id="fNombre" class="normal-size-input" placeholder="Nombre" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Nombre'" required/>
+                <span class="floating-label">NOMBRE</span>
+                <div id="errorNombre" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" id="fApellido" class="normal-size-input" placeholder="Apellido" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Apellido'" required/>
+                <span class="floating-label">APELLIDO</span>
+                <div id="errorApellido" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper-no-split">
+                <input type="email" id="fEmail" class="normal-size-input" placeholder="e-Mail" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'e-Mail'" required/>
+                <span class="floating-label">E-MAIL</span>
+                <div id="errorEmail" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper">
+                <select name="departamento" id="departamento" class="normal-size-input fake-placeholder">
+                    <option value="" selected>Departameto</option>
+                </select>
+                <div id="errorDepartamento" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper">
+                <select name="city" id="localidad" class="normal-size-input fake-placeholder" disabled>
+                    <option value="" selected>Localidad</option>
+                </select>
+                <div id="errorLocalidad" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" id="fCI" class="normal-size-input" placeholder="C.I." onfocus="this.placeholder = ''"  onblur="this.placeholder = 'C.I.'" onkeyup="splitInDots(this)" required/>
+                <span class="floating-label">C.I.</span>
+                <div id="errorCi" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper input-wrapper-left">
+                <input type="checkbox" id="conditions" />
+                <label for="conditions">Acepto las bases y condiciones</label>
+                <div id="errorConditions" class="errorMsg"></div>
+            </div>
+            <div class="input-wrapper">
+                <div class="button-wrapper">
+                    <button class="btn" type="submit" value="Submit">ENVIAR</button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+       
+</section>
+
+
+
+    <!-- VENDOR SCRIPTS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $('.your-class').slick({
+            arrows : true,
+            mobileFirst : true,
+            adaptiveHeight : true,
+
+        });
+    });
+    </script>
+    
+    <!-- PROJECT SCRIPTS -->
+    <script type="text/javascript" src="js/prueba_wunderman.js"></script>
+</body>
+</html>
